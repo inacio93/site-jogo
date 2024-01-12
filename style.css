@@ -12,8 +12,12 @@ body {
 }
 
 .interface {
-    max-width: 1280px;
+    max-width: 1380px;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
 }
 
 /* Cabeçalho */
@@ -54,4 +58,33 @@ header nav.icones ul li {
 header a:hover {
     color: white;
     transform: scale(1.05);
+}
+
+/* Topo Site */
+section.topo-site {
+    padding: 40px 4%;
+}
+
+section.topo-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.topo-site h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+section.topo-site .quem-somos {
+    margin: 200px 0;
+}
+
+.quem-somos h1 {
+    color: #54628C;
+}
+
+.quem-somos p {
+    color: white;
+    font-size: 1.5rem;
 }
