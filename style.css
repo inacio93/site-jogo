@@ -1,56 +1,57 @@
 /* Estilo geral */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     background-color: #07080D;
     height: 100vh;
 }
 
-.interface{
+.interface {
     max-width: 1280px;
     margin: 0 auto;
 }
+
 /* Cabeçalho */
-header{
+header {
     padding: 40px 4%;
 }
 
-header > .interface{
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header a{
+header a {
     color: #CAC7D9;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
-header nav ul{
+header nav ul {
     font-size: 1.2rem;
     list-style-type: none;
 }
 
-header nav.menu-navegacao ul li{
+header nav.menu-navegacao ul li {
     font-weight: 500;
     display: inline-block;
     padding: 0 40px;
 }
 
-header nav.icones ul li{
+header nav.icones ul li {
     font-size: 1.5rem;
     display: inline-block;
     padding: 0 10px;
 }
 
-header a:hover{
+header a:hover {
     color: white;
     transform: scale(1.05);
 }
