@@ -77,14 +77,55 @@ section.topo-site .flex {
 }
 
 section.topo-site .quem-somos {
-    margin: 200px 0;
+    margin: 450px 0;
 }
 
 .quem-somos h1 {
-    color: #54628C;
+    color: white;
 }
 
 .quem-somos p {
-    color: white;
+    color: #CAC7D9;
     font-size: 1.5rem;
+}
+
+section.topo-site .games {
+    margin: 330px 0;
+}
+
+.games h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.game1 {
+    background-color: #CAC7D9;
+    width: 270px;
+    height: 400px;
+}
+
+.partners {
+    margin: 330px 0;
+}
+
+.images-partners ul {
+    display: flex;
+    align-items: center;
+}
+
+.images-partners ul li {
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+/* Rodapé */
+.contato h1 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.contato a {
+    color: #CAC7D9;
+    text-decoration: none;
+    padding: 5px 0;
 }
